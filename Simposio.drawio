@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T04:03:13.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="LuSCLhbJQLeFhQFwjavX" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-23T04:53:28.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_3oHW_Xdi1pPJG9g38BB" version="24.0.7" type="github" pages="3">
   <diagram name="caso de uso" id="5-A9SeP3aqxtndssichK">
     <mxGraphModel dx="1050" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XSMKJUYEkGpB7BYyuTKm" name="Diagrama de Actividades">
-    <mxGraphModel dx="731" dy="1013" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="1270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,29 @@
         </mxCell>
         <mxCell id="y7UK-94qQonE_Ejyqsc0-76" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="476" y="436" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y_phiodP1oGaEqhQBobm" name="Página-3">
+    <mxGraphModel dx="1567" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2b8iXKZSh1aqmMfm7CgD-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Administradores&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;- id :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int&lt;br&gt;- Nombre:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;- Correo:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;- Contraseña: String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ Genera_Reportes()&lt;br&gt;+ Evalua_Resultados()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="37" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2b8iXKZSh1aqmMfm7CgD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="2b8iXKZSh1aqmMfm7CgD-2" target="2b8iXKZSh1aqmMfm7CgD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b8iXKZSh1aqmMfm7CgD-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Participantes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;- Carne:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; double&lt;br&gt;- Nombre:&amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;-Apellido:&amp;nbsp; &amp;nbsp; &amp;nbsp; String&lt;br&gt;- Correo:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ Registro_Asistencia()&lt;br&gt;+ Completar_feedback()&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="126" y="156" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2b8iXKZSh1aqmMfm7CgD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="2b8iXKZSh1aqmMfm7CgD-3" target="2b8iXKZSh1aqmMfm7CgD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b8iXKZSh1aqmMfm7CgD-3" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Formulario Feeback&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;- id :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int&lt;br&gt;- Tema_Simposio:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;- Salon:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;- Calificacion:&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ Genera_Resultados()&lt;br&gt;+ Obtiene_Feeback()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="277" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

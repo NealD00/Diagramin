@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-28T03:07:10.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="jsjOwqF7sJbv689FpnRw" version="24.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-28T03:18:22.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="EMqkV27PQ1R7BTxlbNoo" version="24.7.1" type="github" pages="2">
   <diagram name="Digrama de Clases" id="gdseYrf41wiIhMnn_DHh">
     <mxGraphModel dx="1507" dy="1220" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -237,7 +237,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2iTuF2fFgsJSNKh-I2fF" name="Casos de Uso">
-    <mxGraphModel dx="904" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,7 +311,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6Ku_UeQvqYyxom1KBDUB-23" value="Fechas&amp;nbsp;&lt;div&gt;Importantes&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6Ku_UeQvqYyxom1KBDUB-2">
-          <mxGeometry x="388" y="230" width="90" height="60" as="geometry" />
+          <mxGeometry x="420" y="230" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Ku_UeQvqYyxom1KBDUB-24" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.278;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="6Ku_UeQvqYyxom1KBDUB-2" source="6Ku_UeQvqYyxom1KBDUB-10" target="6Ku_UeQvqYyxom1KBDUB-9">
           <mxGeometry relative="1" as="geometry">

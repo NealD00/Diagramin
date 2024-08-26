@@ -1853,7 +1853,7 @@
           <mxGeometry y="360" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tZ-CRtmkg3FBl1CL16Fj-54" value="&lt;font color=&quot;#ffffff&quot;&gt;Asistencia Adolescentes&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1C5AA7;strokeColor=#1C5AA7;fontColor=#1D3557;swimlaneLine=0;" parent="1" vertex="1">
-          <mxGeometry x="-296" y="211" width="190" height="210" as="geometry">
+          <mxGeometry x="-346" y="110" width="190" height="270" as="geometry">
             <mxRectangle x="273" y="30" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1876,6 +1876,12 @@
         </mxCell>
         <mxCell id="CUOXbAT6sqVLylCSpuNU-4" value="- Nombre_Alumna" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" parent="tZ-CRtmkg3FBl1CL16Fj-54" vertex="1">
           <mxGeometry y="180" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJpuhF_pwhntfSLtU8Zy-42" value="- Fecha Creación" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" vertex="1" parent="tZ-CRtmkg3FBl1CL16Fj-54">
+          <mxGeometry y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJpuhF_pwhntfSLtU8Zy-43" value="- Fecha Actualización" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" vertex="1" parent="tZ-CRtmkg3FBl1CL16Fj-54">
+          <mxGeometry y="240" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tZ-CRtmkg3FBl1CL16Fj-66" value="&lt;font color=&quot;#ffffff&quot;&gt;Planificacion&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1C5AA7;strokeColor=#457B9D;fontColor=#1D3557;swimlaneLine=0;" parent="1" vertex="1">
           <mxGeometry x="913" y="6" width="190" height="390" as="geometry">
@@ -2099,7 +2105,7 @@
             <mxPoint x="-533.0900000000001" y="801" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-387" y="563" />
-              <mxPoint x="-387" y="406" />
+              <mxPoint x="-387" y="305" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2109,7 +2115,7 @@
             <mxPoint x="-241" y="867" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-41" y="181" />
-              <mxPoint x="-41" y="406" />
+              <mxPoint x="-41" y="305" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -3782,7 +3782,7 @@
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="-362" y="-136" width="25.5" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-17" value="Servidor Backend" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-17" value="Servidor de Aplicaciones" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-207" y="-256" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-18" value="MySql" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -3792,13 +3792,10 @@
           <mxGeometry x="-126" y="-192" width="25.5" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-21" value="Servidor Web" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="19" y="-256" width="180" height="120" as="geometry" />
+          <mxGeometry x="38" y="-249" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-22" value="MySql" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="37" y="-216" width="131" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-192" width="25.5" height="34" as="geometry" />
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-22" value="Nginx" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="-209" width="131" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-24" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="-142.37" y="-51" width="52" height="52" as="geometry" />
@@ -3850,6 +3847,20 @@
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-35" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bi4QSeWCDJGy76OdcpdX-34">
           <mxGeometry x="-0.1157" y="4" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-37" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" vertex="1" parent="1">
+          <mxGeometry x="102.37" y="-185" width="29.25" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=100;exitPerimeter=0;startArrow=none;startFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="TG-f9t2kXTLL4TzIbQXu-1" target="Bi4QSeWCDJGy76OdcpdX-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="52" as="sourcePoint" />
+            <mxPoint x="198" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-39" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bi4QSeWCDJGy76OdcpdX-38">
+          <mxGeometry x="0.1289" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

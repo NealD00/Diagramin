@@ -3754,50 +3754,102 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c4YNnMSGsw71U_mDZgEy" name="Despliegue">
-    <mxGraphModel dx="1720" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2113" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TG-f9t2kXTLL4TzIbQXu-1" value="Buscador de Internet" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="34" y="-30" width="180" height="120" as="geometry" />
+          <mxGeometry x="4" y="-55" width="210" height="145" as="geometry" />
         </mxCell>
         <mxCell id="TG-f9t2kXTLL4TzIbQXu-3" value="Navegador Web" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="52" y="10" width="131" height="62" as="geometry" />
+          <mxGeometry x="24" y="-19" width="164" height="83" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-1" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.chrome;gradientColor=#DFDEDE" vertex="1" parent="1">
-          <mxGeometry x="81" y="37" width="26" height="24" as="geometry" />
+          <mxGeometry x="53" y="14.5" width="38" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2189/48/10-Safari-128.png" vertex="1" parent="1">
-          <mxGeometry x="117" y="39" width="22" height="22" as="geometry" />
+          <mxGeometry x="104" y="16" width="32" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/browsers/Firefox.png" vertex="1" parent="1">
-          <mxGeometry x="145" y="38" width="24" height="24" as="geometry" />
+          <mxGeometry x="146" y="16" width="31" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-10" value="Motor de Base de Datos" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="-200" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-11" value="MySql" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="-160" width="131" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="-362" y="-136" width="25.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-17" value="Servidor Backend" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-207" y="-256" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-18" value="MySql" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-189" y="-216" width="131" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="-192" width="25.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-21" value="Servidor Web" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="19" y="-256" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-22" value="MySql" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="-216" width="131" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-192" width="25.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-24" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="-142.37" y="-51" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-25" value="Pc Administrador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150.37" y="1" width="74.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-29" value="Usuarios Finales" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-64" width="294" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-30" value="Dispositivos" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="-24" width="246" height="131" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="204" y="146" width="52" height="52" as="geometry" />
+          <mxGeometry x="488" y="3.5" width="52" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-5" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tablet_2;" vertex="1" parent="1">
-          <mxGeometry x="101" y="150" width="41.95" height="44" as="geometry" />
+          <mxGeometry x="411.02" y="6" width="41.95" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Bi4QSeWCDJGy76OdcpdX-6" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="6" y="154" width="56" height="49" as="geometry" />
+          <mxGeometry x="323" y="3.5" width="56" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.019;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.011;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-4" target="TG-f9t2kXTLL4TzIbQXu-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="335" y="209" as="sourcePoint" />
-            <mxPoint x="385" y="159" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-26" value="Teléfono&lt;div&gt;Inteligente&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="313.88000000000005" y="60" width="74.25" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=120;entryDy=95;entryPerimeter=0;" edge="1" parent="1" target="TG-f9t2kXTLL4TzIbQXu-1">
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-27" value="Tableta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="62" width="74.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-28" value="Computadora&lt;div&gt;Personal&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474.75" y="62" width="74.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=10;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-30" target="TG-f9t2kXTLL4TzIbQXu-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="121" y="149" as="sourcePoint" />
             <mxPoint x="170" y="102" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bi4QSeWCDJGy76OdcpdX-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-6" target="TG-f9t2kXTLL4TzIbQXu-1">
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-36" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bi4QSeWCDJGy76OdcpdX-8">
+          <mxGeometry x="0.1289" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=120;entryDy=95;exitX=0.434;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;entryPerimeter=0;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-24" target="Bi4QSeWCDJGy76OdcpdX-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="131" y="159" as="sourcePoint" />
-            <mxPoint x="129" y="100" as="targetPoint" />
+            <mxPoint x="559" y="50" as="sourcePoint" />
+            <mxPoint x="447" y="-9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-35" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bi4QSeWCDJGy76OdcpdX-34">
+          <mxGeometry x="-0.1157" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -3754,15 +3754,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c4YNnMSGsw71U_mDZgEy" name="Despliegue">
-    <mxGraphModel dx="921" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TG-f9t2kXTLL4TzIbQXu-1" value="Dispositivos de usuario" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="24" y="-18" width="180" height="120" as="geometry" />
+        <mxCell id="TG-f9t2kXTLL4TzIbQXu-1" value="Buscador de Internet" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="34" y="-30" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TG-f9t2kXTLL4TzIbQXu-3" value="Navegador Web" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="42" y="22" width="131" height="62" as="geometry" />
+        <mxCell id="TG-f9t2kXTLL4TzIbQXu-3" value="Navegador Web" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="52" y="10" width="131" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-1" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.chrome;gradientColor=#DFDEDE" vertex="1" parent="1">
+          <mxGeometry x="81" y="37" width="26" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2189/48/10-Safari-128.png" vertex="1" parent="1">
+          <mxGeometry x="117" y="39" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/browsers/Firefox.png" vertex="1" parent="1">
+          <mxGeometry x="145" y="38" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="204" y="146" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-5" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tablet_2;" vertex="1" parent="1">
+          <mxGeometry x="101" y="150" width="41.95" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-6" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="6" y="154" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.019;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.011;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-4" target="TG-f9t2kXTLL4TzIbQXu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="209" as="sourcePoint" />
+            <mxPoint x="385" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=120;entryDy=95;entryPerimeter=0;" edge="1" parent="1" target="TG-f9t2kXTLL4TzIbQXu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="149" as="sourcePoint" />
+            <mxPoint x="170" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bi4QSeWCDJGy76OdcpdX-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bi4QSeWCDJGy76OdcpdX-6" target="TG-f9t2kXTLL4TzIbQXu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="131" y="159" as="sourcePoint" />
+            <mxPoint x="129" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

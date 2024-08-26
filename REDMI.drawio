@@ -1716,7 +1716,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Digrama de Clases" id="gdseYrf41wiIhMnn_DHh">
-    <mxGraphModel dx="2015" dy="1255" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="1512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1752,7 +1752,7 @@
           <mxGeometry x="-360" y="-212" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ-CRtmkg3FBl1CL16Fj-25" value="&lt;font color=&quot;#ffffff&quot;&gt;Adolescentes&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1C5AA7;strokeColor=#457B9D;fontColor=#1D3557;swimlaneLine=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="110" width="210" height="480" as="geometry">
+          <mxGeometry x="30" y="110" width="210" height="540" as="geometry">
             <mxRectangle x="273" y="30" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1802,6 +1802,12 @@
         </mxCell>
         <mxCell id="tZ-CRtmkg3FBl1CL16Fj-81" value="- Mentora" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" parent="tZ-CRtmkg3FBl1CL16Fj-25" vertex="1">
           <mxGeometry y="450" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJpuhF_pwhntfSLtU8Zy-40" value="- Fecha Creación" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" vertex="1" parent="tZ-CRtmkg3FBl1CL16Fj-25">
+          <mxGeometry y="480" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJpuhF_pwhntfSLtU8Zy-41" value="- Fecha Actualización" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" vertex="1" parent="tZ-CRtmkg3FBl1CL16Fj-25">
+          <mxGeometry y="510" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tZ-CRtmkg3FBl1CL16Fj-37" value="&lt;font color=&quot;#ffffff&quot;&gt;Mentoras&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1C5AA7;strokeColor=#457B9D;fontColor=#1D3557;swimlaneLine=0;" parent="1" vertex="1">
           <mxGeometry x="554" y="76" width="190" height="390" as="geometry">
@@ -1930,7 +1936,7 @@
             <mxGeometry y="90" width="190" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="tZ-CRtmkg3FBl1CL16Fj-76" value="- Contrasenia&lt;font face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" parent="tZ-CRtmkg3FBl1CL16Fj-73" vertex="1">
+        <mxCell id="tZ-CRtmkg3FBl1CL16Fj-76" value="- Contraseña&lt;font face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" parent="tZ-CRtmkg3FBl1CL16Fj-73" vertex="1">
           <mxGeometry y="120" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CUOXbAT6sqVLylCSpuNU-7" value="- Id Roles y Permisos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E76216;swimlaneLine=0;" parent="tZ-CRtmkg3FBl1CL16Fj-73" vertex="1">

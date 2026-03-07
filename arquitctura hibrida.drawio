@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1" pages="2">
+  <diagram name="Page-1" id="8vEi5rGaQE8DspIfjL0A">
+    <mxGraphModel dx="1246" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="SITIO PRIMARIO - On-Prem (Activo)&#xa;RPO 5 min asíncrono" vertex="1">
+          <mxGeometry height="470" width="340" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-2" parent="6nhPo9Gc7ieQxnl8teME-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#666666;fontSize=10;" value="Segmentación de Red (Microsegmentación)" vertex="1">
+          <mxGeometry height="30" width="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-3" parent="6nhPo9Gc7ieQxnl8teME-1" style="shape=mxgraph.networks.firewall;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Firewall Perimetral Físico" vertex="1">
+          <mxGeometry height="60" width="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-4" parent="6nhPo9Gc7ieQxnl8teME-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Balanceador de Carga" vertex="1">
+          <mxGeometry height="40" width="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-5" parent="6nhPo9Gc7ieQxnl8teME-1" style="shape=mxgraph.aws4.traditional_server;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Core Bancario" vertex="1">
+          <mxGeometry height="80" width="340" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-6" parent="6nhPo9Gc7ieQxnl8teME-1" style="shape=mxgraph.aws4.database;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="DB Transaccional" vertex="1">
+          <mxGeometry height="80" width="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-7" parent="6nhPo9Gc7ieQxnl8teME-1" style="shape=mxgraph.aws4.traditional_server;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Servidor IAM / Autenticación" vertex="1">
+          <mxGeometry height="80" width="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-8" parent="6nhPo9Gc7ieQxnl8teME-1" style="shape=mxgraph.aws4.resource_icon;resIcon=mxgraph.aws4.rack;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Data Center Principal (Rack)" vertex="1">
+          <mxGeometry height="50" width="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="SITIO SECUNDARIO - Cloud (AWS/Azure)&#xa;(Standby Caliente + Módulos Activos)" vertex="1">
+          <mxGeometry height="790" width="380" x="610" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-10" parent="6nhPo9Gc7ieQxnl8teME-9" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="450" width="380" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-11" parent="6nhPo9Gc7ieQxnl8teME-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="WAF / CDN / DDoS Mitigation" vertex="1">
+          <mxGeometry height="40" width="380" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-12" parent="6nhPo9Gc7ieQxnl8teME-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="APIs / Frontend Móvil (ACTIVO)" vertex="1">
+          <mxGeometry height="40" width="380" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-13" parent="6nhPo9Gc7ieQxnl8teME-9" style="shape=mxgraph.aws4.traditional_server;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Réplica Core Bancario&#xa;(Standby)" vertex="1">
+          <mxGeometry height="90" width="380" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-14" parent="6nhPo9Gc7ieQxnl8teME-9" style="shape=mxgraph.aws4.database;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Réplica DB&#xa;(Sinc. 5 min)" vertex="1">
+          <mxGeometry height="90" width="380" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-15" parent="6nhPo9Gc7ieQxnl8teME-9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#666666;fontSize=10;" value="Microsegmentación Cloud" vertex="1">
+          <mxGeometry height="30" width="380" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="SITIO TIBIO - Backup Offline (Air-Gapped)&#xa;Activación 8h - Región Distinta" vertex="1">
+          <mxGeometry height="300" width="300" x="1210" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-17" parent="6nhPo9Gc7ieQxnl8teME-16" style="shape=mxgraph.basic.lock;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="40" width="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-18" parent="6nhPo9Gc7ieQxnl8teME-16" style="shape=mxgraph.aws4.traditional_server;whiteSpace=wrap;html=1;fillColor=#e1e1e1;strokeColor=#666666;fontColor=#999999;" value="Hardware Preconfigurado&#xa;(Apagado)" vertex="1">
+          <mxGeometry height="100" width="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-19" parent="6nhPo9Gc7ieQxnl8teME-16" style="shape=mxgraph.aws4.resource_icon;resIcon=mxgraph.aws4.tape_storage;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Backups Inmutables&#xa;(Cintas / Object Lock)" vertex="1">
+          <mxGeometry height="80" width="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-20" parent="6nhPo9Gc7ieQxnl8teME-16" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="AIR-GAPPED" vertex="1">
+          <mxGeometry height="30" width="300" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-21" parent="1" style="shape=mxgraph.aws4.user;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Clientes Externos&#xa;(Web/Móvil)" vertex="1">
+          <mxGeometry height="60" width="60" x="770" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-22" parent="1" style="shape=mxgraph.aws4.user;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Empleados&#xa;(Internos)" vertex="1">
+          <mxGeometry height="60" width="60" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-23" parent="1" style="shape=mxgraph.networks.vpn_concentrator;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="VPN Corporativa" vertex="1">
+          <mxGeometry height="60" width="60" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-24" parent="1" style="shape=mxgraph.aws4.resource_icon;resIcon=mxgraph.aws4.bank;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Proveedores Críticos&#xa;(Swift, Cajeros)" vertex="1">
+          <mxGeometry height="60" width="60" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-25" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-21" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-26" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-22" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="110" />
+              <mxPoint x="450" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-27" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-23" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="140" />
+              <mxPoint x="190" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-28" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-23" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="140" />
+              <mxPoint x="800" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-29" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-24" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-30" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-1" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#0000FF;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-9" value="SD-WAN Redundante (2 Líneas)">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-31" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-1" style="endArrow=block;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;endFill=1;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-9" value="Replicación asíncrona cada 5 min (RPO 15 min)">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-32" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-1" style="endArrow=block;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;strokeColor=#008000;endFill=1;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-16" value="Backups semanales air-gapped (offline)">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="460" y="570" />
+              <mxPoint x="1110" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-33" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;dashed=1;strokeWidth=3;curved=1;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-9" value="Failover &lt; 1 hora (RTO Core: 2h)">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-34" edge="1" parent="1" source="6nhPo9Gc7ieQxnl8teME-9" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF8000;dashed=1;strokeWidth=3;curved=1;rounded=0;" target="6nhPo9Gc7ieQxnl8teME-16" value="Activación manual solo si ambos sitios comprometidos (RTO 8h)">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-35" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="Zero Trust - Todo sistema restaurado debe ser verificado" vertex="1">
+          <mxGeometry height="60" width="340" x="20" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;startSize=30;" value="LEYENDA" vertex="1">
+          <mxGeometry height="150" width="300" x="1210" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-37" parent="6nhPo9Gc7ieQxnl8teME-36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Línea sólida: tráfico normal / replicación" vertex="1">
+          <mxGeometry height="20" width="280" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-38" parent="6nhPo9Gc7ieQxnl8teME-36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Línea punteada: failover / backup" vertex="1">
+          <mxGeometry height="20" width="280" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-39" parent="6nhPo9Gc7ieQxnl8teME-36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1" value="Color rojo: crítico (RTO &lt; 2h)" vertex="1">
+          <mxGeometry height="20" width="280" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-40" parent="6nhPo9Gc7ieQxnl8teME-36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B8860B;fontStyle=1" value="Color amarillo: medio (RTO 4-12h)" vertex="1">
+          <mxGeometry height="20" width="280" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6nhPo9Gc7ieQxnl8teME-41" parent="6nhPo9Gc7ieQxnl8teME-36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#008000;fontStyle=1" value="Color verde: backups inmutables" vertex="1">
+          <mxGeometry height="20" width="280" x="10" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QrkwC6aBpu7RlO5cCReN" name="Page-2">
+    <mxGraphModel dx="872" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="srakbXJvXn0ivI6FuGiW">
+    <mxGraphModel dx="2301" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-28" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Cleinte" vertex="1">
+          <mxGeometry height="600" width="300" x="-60" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-45" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="110" />
+              <mxPoint x="155" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-30" parent="Gepu98CumqVTy_N0Dnb_-28" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;labelPerimeter=1;fillColor=#09555B;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-48" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-49" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-33">
+          <mxGeometry relative="1" x="0.6" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-31" parent="Gepu98CumqVTy_N0Dnb_-28" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="110" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-47" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="170" />
+              <mxPoint x="150" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-32" parent="Gepu98CumqVTy_N0Dnb_-28" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Realiza compra&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;en&amp;nbsp;&lt;/span&gt;&lt;div&gt;la Tienda&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="170" x="70" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-50" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-33" parent="Gepu98CumqVTy_N0Dnb_-28" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Entrega tarjeta&lt;div&gt;en terminal POS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-51" edge="1" parent="Gepu98CumqVTy_N0Dnb_-28" source="Gepu98CumqVTy_N0Dnb_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-34" parent="Gepu98CumqVTy_N0Dnb_-28" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Ingresa datos&amp;nbsp;&lt;div&gt;en Sitio WEb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-35" parent="Gepu98CumqVTy_N0Dnb_-28" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Envía datos de&amp;nbsp;&lt;div&gt;la tarjeta&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-21" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="CDE Tienda Luna" vertex="1">
+          <mxGeometry height="600" width="300" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-36" parent="Gepu98CumqVTy_N0Dnb_-21" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Servidor de Pagos&lt;div&gt;Local&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-37" parent="Gepu98CumqVTy_N0Dnb_-21" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Redirige a la pasarela&lt;div&gt;de Pagos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-64" edge="1" parent="Gepu98CumqVTy_N0Dnb_-21" source="Gepu98CumqVTy_N0Dnb_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-60">
+          <mxGeometry relative="1" x="0.168" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="530" />
+              <mxPoint x="125" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-40" parent="Gepu98CumqVTy_N0Dnb_-21" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Muestra de resultados&lt;div&gt;en el Sitio Web&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-63" edge="1" parent="Gepu98CumqVTy_N0Dnb_-21" source="Gepu98CumqVTy_N0Dnb_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-60">
+          <mxGeometry relative="1" x="0.1826" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="530" />
+              <mxPoint x="125" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-39" parent="Gepu98CumqVTy_N0Dnb_-21" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Muestra resultados&lt;div&gt;en Terminal POS.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-52" parent="Gepu98CumqVTy_N0Dnb_-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;strokeWidth=4;fontSize=26;roundedPerimeter=1;labelBackgroundColor=none;fontColor=light-dark(#001910, #202020);" value="CDE" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-60" parent="Gepu98CumqVTy_N0Dnb_-21" style="ellipse;html=1;shape=endState;fillColor=#09555B;strokeColor=#BAC8D3;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#EEEEEE;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="110" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-22" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Tercero" vertex="1">
+          <mxGeometry height="600" width="280" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-41" parent="Gepu98CumqVTy_N0Dnb_-22" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Pasarela de pagos&lt;div&gt;Externa&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-56" edge="1" parent="Gepu98CumqVTy_N0Dnb_-22" source="Gepu98CumqVTy_N0Dnb_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-42" parent="Gepu98CumqVTy_N0Dnb_-22" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Envia respuestas de la transacción" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-24" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Banco Adquiriente" vertex="1">
+          <mxGeometry height="600" width="220" x="820" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-43" parent="Gepu98CumqVTy_N0Dnb_-24" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Procesa la&lt;div&gt;Transacción&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-26" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Marcoas de Tarjetas" vertex="1">
+          <mxGeometry height="600" width="270" x="1040" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-44" parent="Gepu98CumqVTy_N0Dnb_-26" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="Validad la&amp;nbsp;&lt;div&gt;Trasnacción&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-53" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-54" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-55" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="580" />
+              <mxPoint x="350" y="420" />
+              <mxPoint x="580" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-57" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="310" />
+              <mxPoint x="790" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-58" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-44">
+          <mxGeometry relative="1" x="0.3302" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-59" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-42">
+          <mxGeometry relative="1" x="-0.2982" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-61" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gepu98CumqVTy_N0Dnb_-62" edge="1" parent="1" source="Gepu98CumqVTy_N0Dnb_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" target="Gepu98CumqVTy_N0Dnb_-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
